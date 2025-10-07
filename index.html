@@ -1,28 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <title>Mi primera página</title>
 </head>
+
 <body>
-  <h1>¡Hola, Mundo!</h1>
+  <!-- 3. Enlace para saltar directamente al contenido -->
+  <a href="#contenido">Saltar al contenido</a>
 
-  <p>
-    Esta es mi primera pagina html, me presento soy una alumna de la carrera de Ingeniería Civil en Informática, actualmente estoy cursando mi tercer año en la Universidad Mayor, Actualmente tengo 21 años y me encuentro en una carrera acorde a uno de mis intereses, la programación.
-  </p>
+  <!-- 2. Región semántica: encabezado -->
+  <header>
+    <h1>¡Hola, Mundo!</h1>
+  </header>
 
-  <h2>Mis hobbies e intereses</h2>
-  <p>A continuación, algunos de mis hobbies e intereses:</p>
-  
-  <ul>
-    <li>Hacer manualidades</li>
-    <li>Tejer a crochet</li>
-    <li>Pintar y dibujar</li>
-    <li>Hacer figuras con Hamma Beads</li>
-    <li>Trabajar en pañolenci</li>
-    <li>Ordenar mis cosas</li>
-    <li>Ir a las ferias a vender mis artesanias</li>
-  </ul>
-<img src="https://preview.redd.it/i-found-the-real-life-version-of-kikis-cat-from-kikis-v0-n82g2wab3xie1.png?width=640&crop=smart&auto=webp&s=497697e184ecb6a00b665d0e645e79cdeb7235c8">
-  </body>
+  <!-- 2. Región semántica principal -->
+  <main id="contenido">
+    <section>
+      <p>
+        Esta es mi primera página HTML. Me presento: soy una alumna de la carrera de Ingeniería Civil en Informática, actualmente estoy cursando mi tercer año en la Universidad Mayor. Tengo 21 años y me encuentro en una carrera acorde a uno de mis intereses, la programación.
+      </p>
+    </section>
+
+    <section>
+      <h2>Mis hobbies e intereses</h2>
+      <p>A continuación, algunos de mis hobbies e intereses:</p>
+      <ul>
+        <li>Hacer manualidades</li>
+        <li>Tejer a crochet</li>
+        <li>Pintar y dibujar</li>
+        <li>Hacer figuras con Hamma Beads</li>
+        <li>Trabajar en pañolenci</li>
+        <li>Ordenar mis cosas</li>
+        <li>Ir a las ferias a vender mis artesanías</li>
+      </ul>
+
+      <!-- 5. Imagen accesible con descripción y tamaño -->
+      <img 
+        src="https://preview.redd.it/i-found-the-real-life-version-of-kikis-cat-from-kikis-v0-n82g2wab3xie1.png?width=640&crop=smart&auto=webp&s=497697e184ecb6a00b665d0e645e79cdeb7235c8" 
+        alt="Gato negro inspirado en el personaje Jiji de Kiki’s Delivery Service" 
+        width="300" 
+        height="300">
+    </section>
+
+    <section>
+      <h2>Más información</h2>
+      <!-- 6. Enlace externo claro y seguro -->
+      <p>Para aprender más sobre HTML puedes visitar <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a>.</p>
+    </section>
+  </main>
+
+  <!-- 2. Región semántica opcional: pie de página -->
+  <footer>
+    <p>© 2025 Krishna Gutiérrez</p>
+  </footer>
+</body>
 </html>
